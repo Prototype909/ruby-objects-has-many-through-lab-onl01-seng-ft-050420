@@ -17,7 +17,7 @@ class Genre
   end
 
   def songs
-    song.all.select {|song| song.genre == self}
+    ong.all.select {|song| song.genre == self}
   end
 
   def artists
